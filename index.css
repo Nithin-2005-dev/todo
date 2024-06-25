@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0%;box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2%;
+    font-weight:800 ;
+}
+#inputs{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+    margin: 4% 0%;
+}
+.input{
+    width: 25vh;
+}
+.list-con{
+    margin: 4% 0%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.items{
+    width: 25vh;
+}
+.but{
+    width: 20vh;
+    border-radius: 10px;
+    font-weight: 700;
+}
+#add{
+    background-color: rgb(2, 169, 2);
+}
+.delete{
+    background-color: rgb(236, 71, 71);
+}
