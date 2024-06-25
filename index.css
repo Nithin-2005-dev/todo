@@ -23,6 +23,8 @@ input:hover{
 .input{
     width: 15vw;
     border-radius: 10px;
+    font-size: 0.6rem;
+    font-weight: 700;
 }
 .list-con{
     margin: 4% 0%;
