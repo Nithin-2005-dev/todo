@@ -25,6 +25,8 @@ h1{
 }
 .items{
     width: 15vw;
+    font-size: 0.6rem;
+    font-weight: 700;
 }
 .but{
     width: 15vh;
