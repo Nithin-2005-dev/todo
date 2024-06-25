@@ -1,11 +1,15 @@
 *{
     margin: 0;padding: 0%;box-sizing: border-box;
 }
+body{
+    background-color: #667BC6;
+}
 h1{
     text-align: center;
     text-transform: uppercase;
     margin: 2%;
     font-weight:800 ;
+    color: #DA7297;
 }
 #inputs{
     display: flex;
@@ -13,8 +17,12 @@ h1{
     height: 5vh;
     margin: 4% 0%;
 }
+input:hover{
+    border:2px solid #FDFFD2 ;
+}
 .input{
     width: 15vw;
+    border-radius: 10px;
 }
 .list-con{
     margin: 4% 0%;
@@ -27,15 +35,25 @@ h1{
     width: 15vw;
     font-size: 0.6rem;
     font-weight: 700;
+    color: #FFB4C2;
 }
 .but{
     width: 15vh;
     border-radius: 10px;
-    font-weight: 700;
+    font-weight: 900;
+    color: black;
+    box-shadow: 1rem 1rem 1rem #e0799d7e;
+
 }
 #add{
     background-color: rgb(2, 169, 2);
 }
 .delete{
     background-color: rgb(236, 71, 71);
+}
+.delete:active{
+    scale: 0.8;
+}
+#add:active{
+    scale: 0.8;
 }

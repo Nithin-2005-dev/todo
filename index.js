@@ -1,4 +1,7 @@
 const addInputs=()=>{
+    if(inputTodo==""){
+        return;
+    }
     items.push({todo:inputTodo,date:inputDate,time:inputTime});
     todoEvent.target.value="";
     dateEvent.target.value="";
