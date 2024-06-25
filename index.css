@@ -14,7 +14,7 @@ h1{
     margin: 4% 0%;
 }
 .input{
-    width: 25vh;
+    width: 15vw;
 }
 .list-con{
     margin: 4% 0%;
@@ -24,10 +24,10 @@ h1{
 
 }
 .items{
-    width: 25vh;
+    width: 15vw;
 }
 .but{
-    width: 20vh;
+    width: 15vh;
     border-radius: 10px;
     font-weight: 700;
 }
