@@ -53,6 +53,17 @@ input:hover{
 .delete{
     background-color: rgb(236, 71, 71);
 }
+.shake-it{
+    animation: shake 1s ease-in-out 0s infinite;
+}
+@keyframes shake {
+    from{
+        scale: 1.1 ;
+    }
+    to{
+        scale: 0.8;
+    }
+}
 .delete:active{
     scale: 0.8;
 }
